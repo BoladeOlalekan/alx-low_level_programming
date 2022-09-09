@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <time.h>
 
+/**
+ * main - assigns a random number to int n everytime
+ * it executes, and prints it
+ * Return: Always 0 (Success)
+ */
+
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
