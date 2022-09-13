@@ -20,5 +20,6 @@ void print_alphabet_x10(void)
 		alph2++;
 		}
 	_putchar('\n');
+	myNum++;
 	}
 }
