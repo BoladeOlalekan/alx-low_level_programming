@@ -2,13 +2,14 @@
 /**
  * print_numbers - Write a function that prints the numbers, from 0 to 9,
  * followed by a new line
- * @c: Number to be printed
  */
-void print_numbers(int c)
+void print_numbers(void)
 {
-	for (c = 0; c <= 9; c++)
+	int c;
+
+	for (c = 0; c < 10; c++)
 	{
-		_putchar("%d", c);
-		_putchar("\n");
+		_putchar(c + '0');
 	}
+		_putchar("\n");
 }
