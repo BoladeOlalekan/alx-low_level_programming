@@ -16,9 +16,8 @@ int _strlen(char *s)
 }
 
 /**
-*  * rev_string - reverses a string
+* rev_string - reverses a string
 * @s: string s
-*
 */
 
 void rev_string(char *s)
