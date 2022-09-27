@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *print_chessboard - description
+ * print_chessboard - description
  * @a: board
  * Return: void
  */
