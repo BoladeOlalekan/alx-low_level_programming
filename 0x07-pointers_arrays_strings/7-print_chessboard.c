@@ -2,7 +2,6 @@
 /**
  * print_chessboard - description
  * @a: board
- * Return: void
  */
 
 
