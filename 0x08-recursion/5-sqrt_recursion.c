@@ -10,6 +10,8 @@ int _sqrt_recursion(int n)
 {
 	int y;
 
+	y >= 0;
+
 	if (n < 1 && n != y * y)
 	{
 		return (-1);
