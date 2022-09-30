@@ -8,20 +8,22 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n % 2 != 0)
-	{
-		return (-1);
-	}
-	else if (n == 0)
-	{
-		return (0);
-	}
-	else if (n == 1)
-	{
-		return (1);
-	}
+	return (square(n, 1));
+}
+
+/**
+ * square - find square root
+ * @n: int to find square root
+ * @val: square root
+ * Return: int
+ */
+
+int square(int n, int val)
+{
+	if (val * val == n)
+		return (val);
+	else if (val * val < n)
+		return (square(n, val + 1));
 	else
-	{
-		return (n / _sqrt_recursion(n));
-	}
+		return (-1);
 }
